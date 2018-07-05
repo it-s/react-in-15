@@ -1,0 +1,37 @@
+.image-grid-container {
+
+}
+.image-grid-item{
+  padding: 1em;
+  box-sizing: border-box;
+  margin: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1em;
+}
+.image-grid-item img {
+    min-width: 100%;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.image-grid-item img:hover {
+  /* border: 2px solid #0078e7; */
+  box-shadow: 0 2px 10px #383454
+}
+.image-grid-item figcaption {
+    min-width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.image-grid-item figcaption a{
+  color: #666;
+  background: #eee;
+  padding: 0.3em 0.8em;
+  border-radius: 0.8em;
+  text-decoration: none;
+}
+.image-grid-item figcaption a:hover {
+  background-color: #0078e7;
+  color: #fff;
+}
