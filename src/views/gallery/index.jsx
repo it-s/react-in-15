@@ -28,7 +28,7 @@ export class Gallery extends React.Component {
   render() {
     const { images } = this;
     return (<div className="image-grid-container">
-      <Filters {...this.state} onChange={state => this.setState(state)} />
+      <Filters {...this.state} titalNumberOfImages={this.props.images.length} onChange={state => this.setState(state)} />
       <main className="image-grid pure-g">
         {
           images.map(image => <Image key={image.id} {...image} />)
