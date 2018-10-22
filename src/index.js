@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { App } from './views/app';
 
 /*
- * MyCarShop bootstrap
+ * MySimleGallery bootstrap
  * script
  */
 // define the mount root element:
